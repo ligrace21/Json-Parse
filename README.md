@@ -7,7 +7,7 @@
 <p>2. Use SplitViewController of two columns. Make primary column always show up first when app is launched</p>
 
 <br/>
-<div><img src="/screenshot.png" width="512"></div>
+<div><img src="/Json_Parse/screenshot.png" width="512"></div>
 <br/>
-<div><img src="/data_screenshot.png" width="1024"></div>
+<div><img src="/Json_Parse/data_screenshot.png" width="1024"></div>
 
