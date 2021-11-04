@@ -1,0 +1,604 @@
+{
+  "resourceType": "Bundle",
+  "id": "7dac20f5-eda3-4ecc-be98-7f44e575fcf5",
+  "meta": {
+    "lastUpdated": "2021-10-07T00:57:27.867+00:00"
+  },
+  "type": "searchset",
+  "link": [ {
+    "relation": "self",
+    "url": "http://hapi.fhir.org/baseR4/Patient?_pretty=true"
+  }, {
+    "relation": "next",
+    "url": "http://hapi.fhir.org/baseR4?_getpages=7dac20f5-eda3-4ecc-be98-7f44e575fcf5&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+  } ],
+  "entry": [ {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1932735",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "1932735",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-03-08T13:51:29.855+00:00",
+        "source": "#u66Aq5YPS4i4V1oE"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Torre Test <b>MOSEBRYGGERSEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>0104909989</td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "urn:oid:1.2.208.176.1.2",
+        "value": "0104909989"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Smith",
+        "given": [ "James", "Test" ]
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1932741",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "1932741",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-03-08T13:57:38.775+00:00",
+        "source": "#ZNjas86zFjdYesDs"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sverre Test <b>MOSEBRYGGERSEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>0104909995</td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "urn:oid:1.2.208.176.1.2",
+        "value": "0104909995"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Johnson",
+        "given": [ "Robert", "Test" ]
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1932742",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "1932742",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-03-08T13:57:39.040+00:00",
+        "source": "#pejjwGpMAtR74v2N"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Torre Test <b>MOSEBRYGGERSEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>0104909989</td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "urn:oid:1.2.208.176.1.2",
+        "value": "0104909989"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Williams",
+        "given": [ "John", "Test" ]
+      } ],
+      "gender": "male"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199243",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199243",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:46.287+00:00",
+        "source": "#BoZHPGON6aRy7nom"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John164 <b>DOE277 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat793</td></tr><tr><td>Date of birth</td><td><span>06 August 2019</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat793"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Brown",
+        "given": [ "Mary" ]
+      } ],
+      "gender": "female",
+      "birthDate": "2019-08-06",
+      "deceasedDateTime": "2020-01-01T06:21:45+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199261",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199261",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:47.543+00:00",
+        "source": "#jYQukoF4ujcXCpq5"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John679 <b>DOE333 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat794</td></tr><tr><td>Date of birth</td><td><span>30 January 1984</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat794"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Jones",
+        "given": [ "Patricia" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1984-01-30",
+      "deceasedDateTime": "2016-07-16T13:23:27+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199272",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199272",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:48.506+00:00",
+        "source": "#7TJWtORQDhi6Enbz"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John759 <b>DOE623 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat795</td></tr><tr><td>Date of birth</td><td><span>06 October 2003</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat795"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Garcia",
+        "given": [ "Michael" ]
+      } ],
+      "gender": "male",
+      "birthDate": "2003-10-06"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199518",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199518",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:02.038+00:00",
+        "source": "#omLrEprnSxkoVrlx"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John938 <b>DOE140 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat803</td></tr><tr><td>Date of birth</td><td><span>29 May 1971</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat803"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Miller",
+        "given": [ "Jennifer" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1971-05-29",
+      "deceasedDateTime": "2020-02-03T21:35:14+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199581",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199581",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:04.764+00:00",
+        "source": "#ANtWAMLxSestdCoN"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John345 <b>DOE975 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat804</td></tr><tr><td>Date of birth</td><td><span>30 January 2007</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat804"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Davis",
+        "given": [ "Linda" ]
+      } ],
+      "gender": "female",
+      "birthDate": "2007-01-30"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/1932734",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "1932734",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2021-08-30T22:39:58.932+00:00",
+        "source": "#NytGAGUCa5BMutPa"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sverre Test <b>MOSEBRYGGERSEN </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>0104909995</td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "use": "official",
+        "system": "urn:oid:1.2.208.176.1.2",
+        "value": "0104909995"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Martin",
+        "given": [ "Sverre", "Test" ]
+      } ],
+      "gender": "unknown"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199339",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199339",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:52.758+00:00",
+        "source": "#lYGGS6IEDayMoP0Y"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John848 <b>DOE264 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat798</td></tr><tr><td>Date of birth</td><td><span>30 December 1997</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat798"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Martinez",
+        "given": [ "Elizabeth" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1997-12-30"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199361",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199361",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:54.218+00:00",
+        "source": "#JPBvosCT3abBShsI"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John448 <b>DOE776 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat799</td></tr><tr><td>Date of birth</td><td><span>15 August 2009</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat799"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Hernandez",
+        "given": [ "Barbara" ]
+      } ],
+      "gender": "female",
+      "birthDate": "2009-08-15"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199390",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199390",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:55.877+00:00",
+        "source": "#EbvgpawMpVbaCKrn"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John713 <b>DOE697 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat800</td></tr><tr><td>Date of birth</td><td><span>16 August 1985</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat800"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Lopez",
+        "given": [ "David" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1985-08-16"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199416",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199416",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:57.458+00:00",
+        "source": "#P8c7SJRlbKGMB1Qy"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John160 <b>DOE680 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat801</td></tr><tr><td>Date of birth</td><td><span>02 February 1972</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat801"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Gonzalez",
+        "given": [ "Susan" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1972-02-02",
+      "deceasedDateTime": "1981-07-01T11:58:09+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199456",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199456",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:34:59.318+00:00",
+        "source": "#R2JcGpn0dWcoSd3T"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John262 <b>DOE309 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat74</td></tr><tr><td>Date of birth</td><td><span>12 October 1996</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat74"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Wilson",
+        "given": [ "Jessica" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1996-10-12"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199505",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199505",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:01.209+00:00",
+        "source": "#Zht0IIIFbeL6xkXL"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John117 <b>DOE300 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat802</td></tr><tr><td>Date of birth</td><td><span>11 February 2018</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat802"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Anderson",
+        "given": [ "Sarah" ]
+      } ],
+      "gender": "female",
+      "birthDate": "2018-02-11",
+      "deceasedDateTime": "2018-08-28T10:39:01+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199790",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199790",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:15.537+00:00",
+        "source": "#mWm5TUXNlEWt6eDL"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John773 <b>DOE582 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat807</td></tr><tr><td>Date of birth</td><td><span>30 April 1997</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat807"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Thomas",
+        "given": [ "Karen" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1997-04-30"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199832",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199832",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:17.599+00:00",
+        "source": "#NBCdVUye6EMBmgnx"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John263 <b>DOE44 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat808</td></tr><tr><td>Date of birth</td><td><span>29 September 1979</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat808"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Taylor",
+        "given": [ "William" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1979-09-29",
+      "deceasedDateTime": "1986-02-28T11:32:22+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199856",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199856",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:19.518+00:00",
+        "source": "#A9SIC7Mm6428PFeh"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John163 <b>DOE118 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat809</td></tr><tr><td>Date of birth</td><td><span>15 June 1988</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat809"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Moore",
+        "given": [ "Richard" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1988-06-15",
+      "deceasedDateTime": "2015-02-16T18:40:58+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2199957",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2199957",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:23.983+00:00",
+        "source": "#aEdBNIN2JBk7Aktv"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John464 <b>DOE508 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat810</td></tr><tr><td>Date of birth</td><td><span>10 November 1976</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat810"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Jackson",
+        "given": [ "Joseph" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1976-11-10",
+      "deceasedDateTime": "1997-12-01T20:47:25+01:00"
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://hapi.fhir.org/baseR4/Patient/2200018",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2200018",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-06-15T06:35:28.078+00:00",
+        "source": "#uyYDcLGCZwsuHLOB"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John392 <b>DOE424 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>pat811</td></tr><tr><td>Date of birth</td><td><span>09 January 1990</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "MyHospital",
+        "value": "pat811"
+      } ],
+      "name": [ {
+        "use": "official",
+        "family": "Lee",
+        "given": [ "Thomas" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1990-01-09"
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}
